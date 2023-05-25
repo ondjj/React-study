@@ -8,10 +8,22 @@ import Library from './chapter_03/Libray';
 import Clock from './chapter_04/Clock';
 import CommentList from './chapter_05/CommentList';
 import NotificationList from './chapter_06/NotificationList';
+import Accommodate from './chapter_07/Accommodate';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<NotificationList />);
 
+// chapter 07
+root.render(
+  <React.StrictMode>
+    <Accommodate/>
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+
+// chapter 06
+// root.render(<NotificationList />);
+
+// chapter 05
 // root.render(
 //   <React.StrictMode>
 //     <CommentList/>
@@ -19,6 +31,7 @@ root.render(<NotificationList />);
 //   document.getElementById('root')
 // );
 
+// chapter 04
 // setInterval(() => {
 // root.render(
 //   <React.StrictMode>
