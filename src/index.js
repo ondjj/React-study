@@ -11,17 +11,26 @@ import NotificationList from './chapter_06/NotificationList';
 import Accommodate from './chapter_07/Accommodate';
 import ConfirmButton from './chapter_08/ComfirmButton';
 import FunctionButton from './chapter_08/FunctionButton';
+import LandingPage from './chapter_09/LandingPage';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-// chapter 08
+// chapter 09
 root.render(
   <React.StrictMode>
-    <ConfirmButton/>
-    <FunctionButton/>
+    <LandingPage/>
   </React.StrictMode>,
   document.getElementById('root')
 )
+
+// chapter 08
+// root.render(
+//   <React.StrictMode>
+//     <ConfirmButton/>
+//     <FunctionButton/>
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// )
 
 
 // chapter 07
