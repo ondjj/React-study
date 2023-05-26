@@ -9,16 +9,28 @@ import Clock from './chapter_04/Clock';
 import CommentList from './chapter_05/CommentList';
 import NotificationList from './chapter_06/NotificationList';
 import Accommodate from './chapter_07/Accommodate';
+import ConfirmButton from './chapter_08/ComfirmButton';
+import FunctionButton from './chapter_08/FunctionButton';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-// chapter 07
+// chapter 08
 root.render(
   <React.StrictMode>
-    <Accommodate/>
+    <ConfirmButton/>
+    <FunctionButton/>
   </React.StrictMode>,
   document.getElementById('root')
-);
+)
+
+
+// chapter 07
+// root.render(
+//   <React.StrictMode>
+//     <Accommodate/>
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );
 
 // chapter 06
 // root.render(<NotificationList />);
