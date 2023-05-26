@@ -13,17 +13,27 @@ import ConfirmButton from './chapter_08/ComfirmButton';
 import FunctionButton from './chapter_08/FunctionButton';
 import LandingPage from './chapter_09/LandingPage';
 import AttendanceBook from './chapter_10/AttendenceBook';
+import SignUp from './chapter_11/SignUp';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-// chapter 10
+// chapter 11
 root.render(
   <React.StrictMode>
-    <AttendanceBook/>
+    <SignUp/>
   </React.StrictMode>,
 
   document.getElementById('root')
 )
+
+// chapter 10
+// root.render(
+//   <React.StrictMode>
+//     <AttendanceBook/>
+//   </React.StrictMode>,
+
+//   document.getElementById('root')
+// )
 
 // chapter 09
 // root.render(
