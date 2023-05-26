@@ -14,17 +14,29 @@ import FunctionButton from './chapter_08/FunctionButton';
 import LandingPage from './chapter_09/LandingPage';
 import AttendanceBook from './chapter_10/AttendenceBook';
 import SignUp from './chapter_11/SignUp';
+import Calculator from './chapter_12/Calculator';
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-// chapter 11
+// chapter 12
 root.render(
   <React.StrictMode>
-    <SignUp/>
+    <Calculator/>
   </React.StrictMode>,
 
   document.getElementById('root')
 )
+
+
+// chapter 11
+// root.render(
+//   <React.StrictMode>
+//     <SignUp/>
+//   </React.StrictMode>,
+
+//   document.getElementById('root')
+// )
 
 // chapter 10
 // root.render(
